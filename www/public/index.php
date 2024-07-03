@@ -153,7 +153,7 @@
         <h1>My Contact Book</h1>
 
         <div class="myname">
-            <div class="avatar">J</div>Harry Huber
+            <div class="avatar">H.H</div>Harry Huber
         </div>
     </div>
     <div class="main">

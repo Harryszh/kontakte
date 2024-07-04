@@ -1,18 +1,14 @@
-[
-    {
+{
+    "0": {
         "name": "Harry Huber",
         "phone": "0764972868"
     },
-    {
+    "1": {
         "name": "Home",
         "phone": "0443221465"
     },
-    {
-        "name": "sabine",
-        "phone": "9938844"
-    },
-    {
+    "3": {
         "name": "Damyan",
         "phone": "0774639696"
     }
-]
+}

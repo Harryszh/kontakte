@@ -211,13 +211,13 @@
 
             if ($_GET['page'] == 'delete') {
                 echo '<p>Dein Kontakt wurde gelöscht</p>';
-                # Wir laden die Nummer der Reihe aus den URL Parametern
+                // laden die Nummer der Reihe aus den URL Parametern
                 $index = $_GET['delete']; 
 
-                # Wir löschen die Stelle aus dem Array 
+                // löschen die Stelle aus dem Array 
                 unset($contacts[$index]); 
 
-                # Tabelle erneut speichern in Datei contacts.txt
+                // Tabelle erneut speichern in Datei contacts.txt
                 file_put_contents('contacts.txt', json_encode($contacts, JSON_PRETTY_PRINT));
             } else if ($_GET['page'] == 'contacts') {
                 echo "
